@@ -1305,13 +1305,15 @@ section{
 
 }
 
-/* ================= Mobile Background ================= */
-
 @media screen and (max-width:768px){
 
     .main{
-        background: url(Image/mobile-bg.jpg) no-repeat center center !important;
+        background-image: url("Image/mobile-bg.jpg") !important;
+        background-repeat: no-repeat !important;
         background-size: cover !important;
+        background-position: center center !important;
+        background-attachment: scroll !important;
+        min-height: 100vh;
     }
 
 }
