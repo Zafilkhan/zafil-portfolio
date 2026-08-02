@@ -1304,3 +1304,14 @@ section{
     }
 
 }
+
+/* ================= Mobile Background ================= */
+
+@media screen and (max-width:768px){
+
+    .main{
+        background: url(Image/mobile-bg.jpg) no-repeat center center !important;
+        background-size: cover !important;
+    }
+
+}
