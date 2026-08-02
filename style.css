@@ -1255,3 +1255,52 @@ section{
 }
 
 }
+
+/* ================= MOBILE HERO ================= */
+
+@media screen and (max-width:768px){
+
+    html,
+    body{
+        overflow-x:hidden;
+    }
+
+    /* Hero image hide */
+    .main .content img,
+    .main img,
+    .main .content .image{
+        display:none !important;
+    }
+
+    /* Hero text center */
+    .main .content{
+        width:100%;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .main .content h2{
+        font-size:30px;
+    }
+
+    .main .content h2 span{
+        font-size:48px;
+    }
+
+    .animated-text h3{
+        font-size:24px;
+    }
+
+    .media-links{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .link-btn{
+        margin:6px;
+    }
+
+}
