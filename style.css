@@ -1066,3 +1066,192 @@ section{
     color:#555;
     line-height:1.8;
 }
+
+
+/* =====================================================
+   MOBILE & TABLET RESPONSIVE
+===================================================== */
+
+@media screen and (max-width:768px){
+
+header{
+    padding:15px 20px;
+}
+
+header .brand{
+    font-size:22px;
+}
+
+.navigation.active{
+    width:100%;
+}
+
+section{
+    padding:70px 20px;
+}
+
+/* Hero */
+
+.main{
+    background-attachment:scroll;
+    min-height:100vh;
+}
+
+.main .content{
+    width:100%;
+    text-align:center;
+}
+
+.main .content h2{
+    font-size:28px;
+}
+
+.main .content h2 span{
+    font-size:42px;
+}
+
+.animated-text{
+    height:50px;
+}
+
+.animated-text h3{
+    font-size:24px;
+    line-height:50px;
+}
+
+.btn{
+    margin-top:20px;
+}
+
+.media-links{
+    justify-content:center;
+    gap:12px;
+}
+
+.link-btn{
+    font-size:14px;
+    padding:10px 15px;
+}
+
+/* About */
+
+.about .content{
+    flex-direction:column;
+}
+
+.about .content .column{
+    width:100%;
+}
+
+.about .img-card{
+    max-width:320px;
+    margin:0 auto 30px;
+}
+
+.about .content-title{
+    text-align:center;
+}
+
+.paragraph-text{
+    text-align:justify;
+}
+
+/* Skills */
+
+.skills-container{
+    grid-template-columns:1fr;
+}
+
+/* Education */
+
+.education-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.edu-icon{
+    margin:auto;
+}
+
+/* Projects */
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+.project-card{
+    padding:22px;
+}
+
+.tech-stack{
+    justify-content:center;
+}
+
+/* Experience */
+
+.experience-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.exp-badge{
+    margin:auto;
+}
+
+/* Contact */
+
+.contact .content{
+    flex-direction:column;
+}
+
+.contact .row{
+    flex-direction:column;
+}
+
+.contact .card{
+    width:100%;
+    max-width:320px;
+    margin:15px auto;
+}
+
+/* Footer */
+
+.footer{
+    padding:25px 20px;
+    text-align:center;
+}
+
+}
+
+/* =======================
+        TABLET
+======================= */
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+header{
+    padding:15px 40px;
+}
+
+section{
+    padding:80px 40px;
+}
+
+.projects-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.skills-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.about .content{
+    gap:30px;
+}
+
+.education-card,
+.experience-card{
+    align-items:center;
+}
+
+}
